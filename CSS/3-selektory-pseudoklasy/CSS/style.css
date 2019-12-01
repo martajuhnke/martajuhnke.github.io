@@ -1,0 +1,16 @@
+#name:hover{
+    background-color: lightcoral;
+    border: 1px solid grey
+}
+
+#name:focus {background-color: khaki;
+border: 3px solid pink}
+
+.customer:first-child {
+    background-color: plum}
+
+    .customer:nth-last-child(3){
+        background-color: aquamarine;
+    }
+
+    .customer:nth-child(2n-1) {background-color: thistle}
