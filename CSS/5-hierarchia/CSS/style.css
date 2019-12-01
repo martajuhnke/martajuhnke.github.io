@@ -1,0 +1,11 @@
+
+
+p {
+    background-color: skyblue;
+}
+
+p.paragraph {
+    background-color: darkred
+}
+
+p#paragraf {background-color: darkslateblue;}
