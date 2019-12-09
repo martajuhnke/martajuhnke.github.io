@@ -1,0 +1,308 @@
+/* O G O L N E  */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #777;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-size: 10px;
+}
+
+
+
+hr {
+    background-color: #007bff;
+    border: 0;
+    height: 1px;
+    width: 7em;
+
+}
+/* btn - przycisk */
+/* display - element blokowy wyświetla się w linii  */
+.btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid #007bff;
+    padding: 1.5em 2em;
+    display: inline-block;
+    color: #333;
+    cursor: pointer;
+    transition: all 1s;
+}
+/* stan końcowy - co się dzieje z przysiskiem */
+.btn:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+section {
+    padding: 12em 0em;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 2em;
+    font-size: 2em;
+    font-weight: 400;
+    
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+/* H E A D E R */
+header {
+    height: 70vh;
+    background-image: url(../img/header.jpg);
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* uppercase - duze litery */
+header h1 {
+    font-size: 4.5em;
+    text-transform: uppercase;
+    color: #007bff;
+}
+
+header span {
+    color: #007bff;
+}
+
+/* N A W I G A C J A */
+/* skiky nawigacja przyklejona do góry */
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #007bff;
+    z-index: 200;
+}
+
+/* margin 0 kasuje marginesy */
+.nav-menu {
+   padding: 1em 0em;
+   text-align: center;
+   margin: 0em;
+}
+
+
+
+/* margin pierwsza liczba góra dół, druga prawo lewo */
+/* display inline block -  */
+.nav-menu .menu-item {
+    display: inline-block;
+    margin: 0em 1em;
+
+}
+
+
+.nav-menu .menu-item a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1.5em 2em;
+    font-size: 2em;
+
+}
+
+[for="mobile-nav"], #mobile-nav {
+    display: none;
+}
+
+/* S E C T I O N */
+
+/* img {
+    border-radius: 50%;
+    height: 250px;
+    margin: 5em 0em;
+} */
+
+
+/* o mnie  */
+.about .circle {
+    max-width: 40em;
+    max-height: 40em;
+    border-radius: 50%;
+    margin: 2em 0em;
+}
+
+.about p {
+    max-width: 70%;
+    margin: 4em auto 3em auto;
+}
+
+/* Portfolio */
+.portfolio {
+    background-color: #f2f1ed;
+}
+
+.portfolio .gallery-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* flex basis - elementy w kolumnie określonej szerokości */
+.gallery-box .gallery-item {
+    flex-basis: 25%;
+    height: 20em;
+    margin: 0;
+    position: relative;
+}
+
+.gallery-box .gallery-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.gallery-box .gallery-item h3 {
+    position: absolute;
+    height: 100%;
+    background-color: rgba(0, 130, 210, 0.7);
+    top: 0;
+    font-size: 3.5em;
+    color: #fff;
+    font-weight: 300;
+    width: 100%;
+    margin: 0;
+    padding: 25% 0%;
+    opacity: 0;
+    transition: all 1s;
+
+}
+
+.gallery-box .gallery-item h3:hover {
+    position: absolute;
+    height: 100%;
+    background-color: rgba(0, 130, 210, 0.7);
+    top: 0;
+    font-size: 3.5em;
+    color: #fff;
+    font-weight: 300;
+    width: 100%;
+    margin: 0;
+    padding: 25% 0%;
+    opacity: 3;
+    transition: all 1s;
+}
+
+/* K O N T A K T */
+
+/* form {
+    size: 100%;
+    
+}
+
+input {
+    width: 25%;
+    height: 40px;
+    margin: 10px;
+    
+    
+}
+textarea {
+    width: 50%;
+    height: 200px;
+    
+}
+
+::placeholder {
+font-size: 20px;
+padding-left: 10px;
+} */
+
+/* justify conent - rozłożenie równo elementów */
+.contact form {
+    max-width: 70em;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact form input:not([type="submit"]) {
+    flex-basis: 48%;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.contact form textarea {
+    flex-basis: 100%;
+    margin-bottom: 1.5em;
+    padding: 1.5em;
+    height: 10em;
+}
+
+.container .social-media {
+    margin-top: 7em;
+   
+}
+
+.social-media i{
+    display: inline-block;
+    margin: 0 1.5em;
+    font-size: 2.5em;
+}
+
+.contact form [type="submit"] {
+    margin: 0 auto;
+}
+
+.container .social-media {
+    display: inline-block;
+    margin: 0 1.5em;
+    font-size: 2.5em;
+}
+
+.social-media a {
+    color: #007bff;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 480px) {
+    [for="mobile-nav"]{
+        display: block;
+        color: white;
+        text-transform: uppercase;
+        text-align: right;
+        padding: 1em 0;
+        font-size: 1.3em;
+    }
+
+    nav .nav-menu {
+        display: none;
+    }
+    nav #mobile-nav:checked + ul {
+        display: block;
+
+    }
+    
+    nav .nav-menu .menu-item {
+        display: block;
+        text-align: right;
+        margin: 0;
+    }
+    nav .nav-menu .menu-item a {
+        padding: 1.2em 2em;
+    }
+}
