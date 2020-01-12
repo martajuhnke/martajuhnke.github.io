@@ -1,0 +1,44 @@
+.main-right-nav {
+    justify-content: flex-end;
+}
+
+.main-form {
+    background-image: url(form-background.jpg);
+    color: white;
+    background-size: cover;
+}
+.kontener-gowny {
+    padding-top: 50px;
+}
+
+.main-formularz {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.main-title-form {
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.btn-orange {
+    background-color: orange;
+   
+}
+
+#formularz-kontaktowy input,
+#formularz-kontaktowy textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+/* sekcja 2 - inspirujemy
+padding odsuwa od góry i od dołu */
+#inspirations {
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
+
+.stopka {
+    background-color: #f8f8f8;
+}

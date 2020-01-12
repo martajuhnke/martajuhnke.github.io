@@ -1,0 +1,9 @@
+.container-example {
+    background-color: pink;
+    height: auto;
+}
+
+.container-fluid-example {
+    background: powderblue;
+    height: 200px;
+}
