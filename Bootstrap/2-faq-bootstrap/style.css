@@ -1,0 +1,15 @@
+h2 {
+    text-align: center;
+    color: gray;
+}
+hr {
+    width: 75px;
+}
+
+.accordion {
+    text-align: center;
+}
+
+.btn-link {
+    color: red;
+}
