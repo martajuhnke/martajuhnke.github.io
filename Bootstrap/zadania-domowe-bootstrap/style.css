@@ -1,0 +1,31 @@
+#nagłówek {
+    color: gray;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+hr {
+    width: 250px;
+    color: gray;
+    
+}
+
+#sekcja {
+    text-align: center;
+}
+
+
+i {
+    color: orange;
+    font-size: 75px;
+    padding-top: 50px;
+    
+}
+
+p {
+color: gray;
+font-family: 'Montserrat';
+font-size: 25px;
+padding-top: 50px;
+}
+
